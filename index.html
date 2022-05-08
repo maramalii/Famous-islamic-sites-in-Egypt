@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Famous Islamic Sites in Egypt</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<div class="navbar">
+    <img src="images/building-4751158__480.jpg" class="logo">
+
+</div>
+
+<body>
+
+    <div class="row">
+        <div class="col">
+            <h1> Most beautiful mosques in Egypt</h1>
+            <br>
+            <p> Egypt is home to a significant number of majestic Islamic sites that are distinctive for their wonderful architecture in a changing sequence of Ottoman, Ayyubid, Fatimid, Mamluk, and modern styles. </p>
+            <br>
+            <p>If you are interested, fill out the registration form to get more information.</p>
+            <br>
+        </div>
+        <br>
+        <div class="registration-form">
+            <br>
+
+            <br>
+            <form action="#" method="post">
+                <p>Full Name:</p>
+                <input type="text" name="fullname">
+                <p>User Name:</p>
+                <input type="text" name="username">
+                <p>Email:</p>
+                <input type="email" name="email">
+                <p>Password:</p>
+                <input type="password" name="password">
+                <br> <button id= "btn" type="submit">Registration</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="card card1">
+            <h5>Amr ibn al-As mosque</h5>    
+        <p> It was the center of the ancient capital of Egypt “Fustat”. <br> It was considered the fourth largest mosque in the Islamic world.
+        </p>
+    </div>
+
+    <div class="card card2">
+        <h5> Ibn Tulun mosque </h5>
+        <p> It is considered to be the oldest Egyptian mosques that have survived with its original shape and it is also the largest one in Cairo.
+        </p>
+
+    </div>
+
+    <div class="card card3">
+        <h5> Complex of Sultan Qalawun </h5>
+        <p> The complex houses a Mosque, a Medersa, a Mausoleum and a Mauristan inside its walls.
+        </p>
+
+    </div>
+    <script>
+        var today = new Date();
+
+        var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+        var dateTime = date + ' ' + time;
+        console.log(dateTime);
+    </script>
+    <script>
+        const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function onClick() {
+  btn.style.backgroundColor = 'brown';
+  
+});
+    </script>
+
+</body>
+</html>

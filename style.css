@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(images/pexels-pixabay-235985.jpg);
+    background-position: left top;
+    padding-left: 1%;
+    padding-right: 4%;
+    padding-top: 1%;
+}
+
+.navbar {
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.row {
+    position: absolute;
+    display: flex;
+    padding: 50px;
+    line-height: 300%;
+    margin: auto;
+}
+
+.col {
+    flex-basis: 50%;
+    line-height: 200%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: bold;
+}
+
+P {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.registration-form {
+    position: absolute;
+    padding-top: 200px;
+}
+
+.registration-form h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.registration-form p {
+    font-size: 20px;
+}
+
+.registration-form input {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card {
+    width: 370px;
+    height: 400px;
+    bottom: 0%;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 5px;
+    background-position: center;
+    background-size: cover;
+    color: rgb(148, 76, 58);
+    font-size: x-large;
+    font-style: bold;
+    text-align: center;
+    margin-left: 68%;
+    display: inline-table;
+}
+
+.card1 {
+    background-image: url(images/Amr-Ibn-Al-Aas-Mosque-Egypt-Tours-Portalcroped2.jpg);
+}
+
+.card2 {
+    background-image: url(images/tulun0.jpg);
+}
+
+.card3 {
+    background-image: url(images/Qalawun-Complex-Egypt-Tours-Portal.jpg);
+}
